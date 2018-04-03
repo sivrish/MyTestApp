@@ -13,7 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "My Test App"
-        self.navigationController?.navigationBar.prefersLargeTitles = true
+        if #available(iOS 11.0, *) {
+            self.navigationController?.navigationBar.prefersLargeTitles = true
+        } else {
+            // Fallback on earlier versions
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
