@@ -21,6 +21,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    public func checkIosVersionIsSupportedOrNot(versionNumber:Int) -> String
+    {
+        if(versionNumber == 11)
+        {
+            return "Supported iOS version"
+        }
+        else if(versionNumber > 11)
+        {
+            return "iOS version not released yet"
+        }
+            //        else if(versionNumber < 1)
+            //        {
+            //            return "Provide valid iOS version"
+            //        }
+        else
+        {
+            return "iOS version not supported"
+        }
+    }
 }
 
