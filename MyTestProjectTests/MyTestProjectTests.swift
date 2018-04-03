@@ -35,7 +35,7 @@ class MyTestProjectTests: XCTestCase {
 
         supportString = testViewController.checkIosVersionIsSupportedOrNot(versionNumber: testIosVersion)
 
-        XCTAssert(supportString == "Provide valid iOS version")
+        XCTAssert(supportString == "Provide valid iOS version1")
     }
     
 }
