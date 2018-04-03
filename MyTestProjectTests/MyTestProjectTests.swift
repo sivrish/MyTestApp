@@ -35,7 +35,18 @@ class MyTestProjectTests: XCTestCase {
 
         supportString = testViewController.checkIosVersionIsSupportedOrNot(versionNumber: testIosVersion)
 
-        XCTAssert(supportString == "Provide valid iOS version1")
+        XCTAssert(supportString == "Provide valid iOS version")
+    }
+    
+
+    func testCheckForOS()
+    {
+        let testIosVersion:Int = 11
+
+        let supportString:String = testViewController.checkIosVersionIsSupportedOrNot(versionNumber: testIosVersion)
+        
+        XCTAssert(supportString == "Supported iOS versionqwed")
+        
     }
     
 }
