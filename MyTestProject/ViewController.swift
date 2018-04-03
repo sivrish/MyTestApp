@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "My Test App"
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -31,10 +32,10 @@ class ViewController: UIViewController {
         {
             return "iOS version not released yet"
         }
-            //        else if(versionNumber < 1)
-            //        {
-            //            return "Provide valid iOS version"
-            //        }
+        else if(versionNumber < 1)
+        {
+            return "Provide valid iOS version"
+        }
         else
         {
             return "iOS version not supported"
