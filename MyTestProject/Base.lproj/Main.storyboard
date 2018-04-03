@@ -38,7 +38,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npn-5v-pkJ">
-                                <rect key="frame" x="152" y="318" width="71" height="30"/>
+                                <rect key="frame" x="131.5" y="313" width="112" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Press This"/>
                                 <connections>
                                     <segue destination="UyA-nH-HP2" kind="show" id="LK2-WE-6D2"/>

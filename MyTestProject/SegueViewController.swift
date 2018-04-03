@@ -13,6 +13,7 @@ class SegueViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Segue Controller"
+        
         // Do any additional setup after loading the view.
     }
 

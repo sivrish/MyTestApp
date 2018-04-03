@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         } else {
             // Fallback on earlier versions
         }
+        self.navigationController?.navigationBar.tintColor = .red
         // Do any additional setup after loading the view, typically from a nib.
     }
 
